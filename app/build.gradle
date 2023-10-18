@@ -1,0 +1,23 @@
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "$rootDir/repo"}
+        maven { url "https://gitee.com/ezy/repo/raw/cosmo/"}
+    }
+
+    dependencies {
+        classpath "com.didiglobal.booster:booster-gradle-plugin:4.16.3"
+        classpath "me.reezy.gradle:hookmethod-booster:1.0.0"
+    }
+}
+
+
+apply from: "$buildGradlePath/build-demo.gradle"
+
+apply plugin: 'com.didiglobal.booster'
+
+hookMethod {
+    classes = ["com.demo.app.PrivacyManager"]
+}

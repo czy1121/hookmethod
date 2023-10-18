@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.reezy.gradle",
+    "module": "hookmethod-booster",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hookmethod-booster-1.0.0.jar",
+          "url": "hookmethod-booster-1.0.0.jar",
+          "size": 17411,
+          "sha512": "2752f4521e30e8a36ac86cf03ce338d63e9644d36af78668d07caec3c09275acef51fca5abf9e9d7a1d3d7060b60ca40dc841b10d066c0d6bb352a1c2eaece0c",
+          "sha256": "005b78acd9064bacc6182e52d5c1096d2a8fe7c40d1288c8587dcd946434c865",
+          "sha1": "d70876cbd9644220d011b83916c4b6c1216c3b26",
+          "md5": "10aca38e19d87f347e7cc4da717543a1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "com.didiglobal.booster",
+          "module": "booster-api",
+          "version": {
+            "requires": "4.16.3"
+          }
+        },
+        {
+          "group": "com.didiglobal.booster",
+          "module": "booster-transform-asm",
+          "version": {
+            "requires": "4.16.3"
+          }
+        },
+        {
+          "group": "com.google.auto.service",
+          "module": "auto-service-annotations",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "me.reezy.gradle",
+          "module": "hookmethod-annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hookmethod-booster-1.0.0.jar",
+          "url": "hookmethod-booster-1.0.0.jar",
+          "size": 17411,
+          "sha512": "2752f4521e30e8a36ac86cf03ce338d63e9644d36af78668d07caec3c09275acef51fca5abf9e9d7a1d3d7060b60ca40dc841b10d066c0d6bb352a1c2eaece0c",
+          "sha256": "005b78acd9064bacc6182e52d5c1096d2a8fe7c40d1288c8587dcd946434c865",
+          "sha1": "d70876cbd9644220d011b83916c4b6c1216c3b26",
+          "md5": "10aca38e19d87f347e7cc4da717543a1"
+        }
+      ]
+    }
+  ]
+}

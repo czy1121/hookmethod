@@ -1,0 +1,9 @@
+
+
+
+apply from: "$buildGradlePath/build-booster.gradle"
+
+
+dependencies {
+    implementation "me.reezy.gradle:hookmethod-annotation:1.0.0"
+}

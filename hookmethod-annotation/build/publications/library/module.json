@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.reezy.gradle",
+    "module": "hookmethod-annotation",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hookmethod-annotation-1.0.0.jar",
+          "url": "hookmethod-annotation-1.0.0.jar",
+          "size": 1867,
+          "sha512": "6dd1152378e00241c9aac6904fb86a79c621ddb067eb0685cf3898dfa45eec07cc8c886fdc9325f0d0558fa0e3608620cd721bced24160d5eb7d4d5e4d7378e1",
+          "sha256": "16bd36aab122439f1ec9c6a43ff35af80e248f6b1cc20e6da1cbed65334b65a3",
+          "sha1": "f23bca62ac6138176149b79beb030a445a8f47e0",
+          "md5": "8b990884f134de1960aa189b14c0d16f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hookmethod-annotation-1.0.0.jar",
+          "url": "hookmethod-annotation-1.0.0.jar",
+          "size": 1867,
+          "sha512": "6dd1152378e00241c9aac6904fb86a79c621ddb067eb0685cf3898dfa45eec07cc8c886fdc9325f0d0558fa0e3608620cd721bced24160d5eb7d4d5e4d7378e1",
+          "sha256": "16bd36aab122439f1ec9c6a43ff35af80e248f6b1cc20e6da1cbed65334b65a3",
+          "sha1": "f23bca62ac6138176149b79beb030a445a8f47e0",
+          "md5": "8b990884f134de1960aa189b14c0d16f"
+        }
+      ]
+    }
+  ]
+}
