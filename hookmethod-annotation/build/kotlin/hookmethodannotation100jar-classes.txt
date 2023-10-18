@@ -1,1 +1,0 @@
-/Users/Shared/data/work/me.reezy.gradle/hookmethod/hookmethod-annotation/build/classes/kotlin/main/me/reezy/gradle/hookmethod/annotation/HookMethod.class
